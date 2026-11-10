@@ -52,19 +52,13 @@ Get["/path/to/xAlpha/xAlpha.m"];
 
 See [`luminalHorndeski`](Examples/luminalHorndeski.nb) for a complete worked notebook reproducing the results in [2605.04154](https://arxiv.org/abs/2605.04154).
 
-See [`mixedScreening`](Examples/mixedScreening.nb) for the derivation behind
-*The Symbiosis of Vainshtein and Chameleon Screening*
-([2610.36166](https://arxiv.org/abs/2610.36166)): the covariant action is
-reduced to the spatial master equation, non-dimensionalised, and the paper's
-analytical results recovered from it. Every step is computed rather than
-transcribed. It uses only the public xAct packages (xTensor and xPert), not
-xAlpha itself, and so runs without any of the setup above.
+See [`mixedScreening`](Examples/mixedScreening.nb) for a complete worked notebook reproducing the results in [2610.36166](https://arxiv.org/abs/2610.36166) (note that it does not require xAlpha).
 
 ---
 
 ## Citation
 
-If you use this code, please cite the associated paper: [2605.04154](https://arxiv.org/abs/2605.04154).
+If you use this code, please cite the associated papers: [2605.04154](https://arxiv.org/abs/2605.04154) and [2610.36166](https://arxiv.org/abs/2610.36166).
 
 Please also cite xAct and xPand.
 
@@ -74,7 +68,7 @@ Please also cite xAct and xPand.
 
 For questions or comments, please contact sergi.sirera@port.ac.uk.
 
-> Parts of this codebase were developed with the assistance of GitHub Copilot. All physics formulations and     scientific results were designed and verified by the authors.
+> Parts of this codebase were developed with the assistance of GitHub Copilot. All physics formulations and scientific results were designed and verified by the authors.
 
 ---
 
