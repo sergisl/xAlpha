@@ -52,6 +52,14 @@ Get["/path/to/xAlpha/xAlpha.m"];
 
 See [`luminalHorndeski`](Examples/luminalHorndeski.nb) for a complete worked notebook reproducing the results in [2605.04154](https://arxiv.org/abs/2605.04154).
 
+See [`mixedScreening`](Examples/mixedScreening.nb) for the derivation behind
+*The Symbiosis of Vainshtein and Chameleon Screening*
+([2610.36166](https://arxiv.org/abs/2610.36166)): the covariant action is
+reduced to the spatial master equation, non-dimensionalised, and the paper's
+analytical results recovered from it. Every step is computed rather than
+transcribed. It uses only the public xAct packages (xTensor and xPert), not
+xAlpha itself, and so runs without any of the setup above.
+
 ---
 
 ## Citation
